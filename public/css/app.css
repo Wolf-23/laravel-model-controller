@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  height: 80px;
+  background-color: #56a5fa;
+  margin-bottom: 50px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+header ul li {
+  margin: 0 25px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+header ul li a.active,
+header ul li a:hover {
+  color: #56a5fa;
+}
+
+.container {
+  max-width: 1170px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  width: calc(25% - 30px);
+  margin: 15px 15px;
+  background-color: rgb(212, 212, 212);
+  padding: 15px 8px 0 8px;
+  border-radius: 10px;
+}
+
+.container .card .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container .card .original,
+.container .card .nation,
+.container .card .date,
+.container .card .vote {
+  margin-bottom: 10px;
+}
+
+.best,
+.update {
+  text-align: center;
+}
+
